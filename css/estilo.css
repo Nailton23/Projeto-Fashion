@@ -1,0 +1,151 @@
+body{
+    font-family: tohoma, arial , san serif;
+    margin:0;
+    padding:0;
+}
+
+#Principal{
+    width:1024px;
+    margin:30px auto;
+}
+.header-top{
+    background-color: #152028;
+    height: 50px;
+    position:relative;
+}
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+.header-nav{
+    position:absolute;
+    top:0;
+    right:0;
+   padding: 15px;
+    height:100%;
+}
+.header-nav ul{
+    margin:0;
+    padding:0;
+
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px 0 0;
+}
+.header-nav a{
+    color:#425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing: 2px;
+    transition: color 0.4s linear;
+}
+.header-nav a:hover{
+    color:white;
+}
+
+.portifolio{
+    padding:50px 100px;
+    text-align:center;
+}
+.portifolio h1{
+    font-size: 36px;
+    color:#252525;
+}
+.portifolio p{
+    font-size:16px;
+    color:#555;
+    line-height:32px  ;
+}
+
+.galery{
+    color:#555;
+    padding:0 100px 0 100px;
+    overflow: auto;
+}
+.galery-cards{
+    width:32%;
+    float:left;
+    text-align: center;    
+}
+.galery-titulo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing:3px;
+
+}
+
+.about{
+    padding:100px;
+    color:white;
+    background-image: url("../imagens/bg_detalhe.png");
+    /* background-repeat: no-repeat; */
+    background-position:right bottom;
+    
+    
+}
+.about h1{
+    text-transform:uppercase;
+    font-size:40px;
+    font-weight: normal;
+    color:white;
+
+}
+
+.about p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contato{
+    margin: 50px 0;
+}
+#contato address{
+    color:#143f52;
+    font-size: 26px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+}
+.maps iframe{
+    width:100%;
+}
+.rodape{
+    text-align: center;
+    font-size:12px;
+    background-color: #0b171f;
+    padding:25px;
+    letter-spacing: 5px;
+    color:#6f8597;
+    margin-top:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
